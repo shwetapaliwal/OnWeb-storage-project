@@ -1,0 +1,44 @@
+body{
+  background-color: darkgray;  
+}
+h2{
+ color: black;
+ font-size: 40px;
+}
+.table{
+  padding: 40px;  
+}
+.table #label1{
+    font-size: 20px;
+    color:black ;
+}
+#txt{
+   height: 30px;
+   width: 300px;
+}
+#button{
+    height: 50px;
+    width: 100px;
+    background: blue;
+    border-color: blue;
+    border-style: solid;
+    position: absolute;
+    top: 450px;
+    left: 630px;
+    color: white;
+    font-size: 20px;
+}
+#txt1{
+    height: 30px;
+   width: 300px;
+}
+#txt2{
+    height: 30px;
+   width: 300px;
+}
+#txt3{
+    height: 30px;
+   width: 300px;
+}
+
+

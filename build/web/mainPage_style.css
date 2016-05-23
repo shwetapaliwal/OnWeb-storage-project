@@ -1,0 +1,177 @@
+body{
+    /*background-image: url("images/back6.jpg");*/
+    background-color: lightslategray;
+   }
+   #rightdiv{
+       float: right;
+   }
+   #leftdiv{
+       float: left;
+       height: 40cm;
+       width: 7cm;
+       border-color: black;
+       background-color: darkgrey;
+       border-style: solid;
+       border-width: 0px 5px 0px 0px;
+   }
+   .button{
+      height: 40px;
+       width: 200px;
+       background-color: midnightblue;
+       color: lightblue;
+       font-size: 20px;
+       border-color: midnightblue;
+        border-radius: 10px 10px 10px 10px;
+        
+        margin: 4px;
+   }
+   .button a{
+       text-decoration: none;
+       color: lightblue;
+   }
+   .button:hover{ background-color: lightslategrey;}
+   .button1{
+       height: 40px;
+       width: 200px;
+       background-color: moccasin;
+       color: darkslateblue;
+       font-size: 20px;
+        border-radius: 10px 10px 10px 10px;
+        
+        margin: 4px;
+   }
+   .button1:hover{background-color: lightslategray;}
+   #window{
+       height: 210px;
+       width: 530px;
+       background-color: yellowgreen;
+       /*border-color: d;*/
+       position: absolute;
+       top: 10px;
+       right: 500px;
+       display: none;
+       visibility: hidden;
+       font-size: 10px;
+       z-index: 2;
+   }
+  
+   #ContactView{
+       position: absolute;
+       /*background-color: white;*/
+       top: 50px;
+       right: 120px;
+       height: 40cm;
+       /*width: 35cm;*/
+       z-index: 10;
+   }
+   #folder{
+       height: 120px;
+       width: 500px;
+       background-color: yellowgreen;
+       position: absolute;
+       top: 10px;
+       right: 400px;
+       display: none;
+       visibility: hidden;
+       
+       z-index: 2;
+   }
+   #folder label{
+       font-size: 20px;
+   }
+   #folder input{
+       height: 30px;
+       width: 200px;
+       background-color: white;
+       color: black;
+   }
+   .in{
+        width: 430px;
+       height: 30px;
+       background-color: white; 
+       background-image: url('images/search.gif');
+       background-repeat:no-repeat;
+        background-position:right;
+   }
+   
+   #window th{
+       font-size: 30px;
+       color: white;
+   }
+   #window tbody td{
+       font-size: 20px;
+       color: black;
+   }
+   #window tbody td input{
+       height: 20px;
+       width: 210px;
+       background-color: white;
+       /*font-size: 15px;*/
+   }
+   #upload{
+       font-size: 15px;
+       height: 30px;
+       width: 210px;
+       background-color: lightgreen;
+   }
+   #chkbox{
+       visibility: hidden;
+       display: none;
+   }
+   .maindiv{
+       position: absolute;
+       top: 80px;
+       left: 300px;
+       height: 40cm;
+       width: 35cm;
+       /*background-color: gray;*/
+   }
+   #mytable{
+       background-color: black;
+       border: 5px solid white;
+       width :75%;
+       
+   }
+   thead{
+       font-size: 15px;
+       color: lightblue;
+       background-color: midnightblue;
+   }
+   tbody{
+       color: white;
+   }
+   tr .bottom row{
+       border-bottom:1pt solid black;
+   }
+
+   
+
+.menu a:hover{
+    color:orange;
+}
+.menu a:target{
+    color:blue;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+#fileupload{
+    height: 30px;
+    width: 70px;
+    background-color: black;
+    border-color: black;
+    color: black;
+}
+ .out{
+                background-color: darkslateblue;
+                border-color: darkslateblue;
+                height: 50px;
+                width: 100px;
+                color: white;
+            }
+/*            .out:hover{
+                background-color: lightgrey;
+            }*/
+
